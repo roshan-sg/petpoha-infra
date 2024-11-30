@@ -1,0 +1,9 @@
+app_name                     = "petpoha"
+key_name                     = "petpoha-ssh-key"
+vpc_cidr_block               = "10.0.0.0/16"
+public_subnet_cidr_block     = "10.0.1.0/24"
+private_subnet_cidr_block    = "10.0.2.0/24"
+region                       = "ap-southeast-1"
+instance_type                = "t2.micro"
+ami_id                       = "ami-035bdfdb33c502d91"  # Make sure this is a valid AMI ID
+account_id                   = "796973505325"
