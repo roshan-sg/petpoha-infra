@@ -1,0 +1,5 @@
+# Ignore Terraform directory and provider files
+.terraform/
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
